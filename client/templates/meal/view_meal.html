@@ -1,0 +1,14 @@
+<template name="view_meal">
+  <div>
+    <div>
+      <ins>
+        Rice and Chicken
+      </ins>
+    </div>
+    <div>
+      {{#each recipes}}
+        {{> recipe}}
+      {{/each}}
+    </div>
+  </div>
+</template>
