@@ -1,7 +1,13 @@
 <template name="recipe">
-  <div>
-    {{name}}
-    <a href="#" class="btn btn-primary">Change</a>
-    <a href="#" class="btn btn-primary">Remove</a>
+  <div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-md-4">
+      {{name}}
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+      <a href="#" class="btn btn-warning btn-sm">Change</a>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+      <a href="#" class="btn btn-link">Remove</a>
+    </div>
   </div>
 </template>
