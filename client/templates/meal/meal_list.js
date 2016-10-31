@@ -1,6 +1,6 @@
 var mealsData = [
   {
-    name: 'Chicken and Rice'
+    name: 'Rice and Chicken'
   },
   {
     name: 'Tacos'
