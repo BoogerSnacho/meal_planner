@@ -1,7 +1,0 @@
-this is just for reference
-<template name="footer">
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container-fluid">
-    </div>
-  </nav>
-</template>
